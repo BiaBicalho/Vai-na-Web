@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <header>
+            <h1>Abra uma conta</h1>
+            <h2>É gratuito e sempre será</h2>
+        </header>
+        <main>
+            <form>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required/>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor email" required>
+
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+
+                <label for="nasc">Data de Nascimento</label>
+                <input type="date" name="nascimento" id="nasc">
+
+                <label>Gênero: </label>
+
+                <input type="radio" name="genero" id="masc" value="masculino"/>
+                <label for="genero">Masculino</label>
+
+                <input type="radio" name="genero" id="fem" value="feminino"/>
+                <label for="genero">Feminino </label>
+
+                
+                <input type="radio" name="genero" id="out" value="outros" checked/>
+                <label for="genero">Outros </label>
+
+                <input type="submit"value="Cadastrar">
+            </form>
+        </main>
+    </body>
+</html>

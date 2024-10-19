@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: solid 2px;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    div{
+        //border: solid 2px red;
+        width: 30vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    .firstButton{
+        background-color: red;
+        height: 7vh;
+        width: 15vw;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+    }
+        button{
+            width: 8vw;
+            height: 7vh;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    }
+}
+.secondBox{
+    border: solid 2px blue;
+    display: flex;
+    justify-content: space-between;
+    article{
+        border: solid 2px yellow;
+        img{
+            width: 20vw;
+        }
+    }
+}
+footer{
+    height: 20vh;
+}

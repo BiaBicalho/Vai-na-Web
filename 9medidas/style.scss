@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border box;
+}
+
+section{
+    p{
+        //font-size: 16px; //medida fixa
+        font-size: 2rem; //medida fixa de 16px a cada 1rem
+    }
+}
+
+.div1{
+    width:400px;
+    height: 300px;
+    background-color:cadetblue;
+}
+.div2{
+    width:40vw; //relativo ao comprimento do navegador 0 a 100
+    height: 30vh; //relativo a largura do navegador 0 a 100
+    background-color:bisque;
+    div{
+        width:50%; //relativo ao comprimento da caixa 0 a 100
+        height: 50%; //relativo a largura da caixa 0 a 100
+        background-color:aqua;
+    }
+}

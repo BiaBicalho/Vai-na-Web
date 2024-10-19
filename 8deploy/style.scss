@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    border: solid 2px black;
+    width: 750px;
+    height: 500px;
+    background-image: url("./img/netflix-banner.jpg");
+    color: aliceblue;
+//    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+//    background-size: contain;
+}

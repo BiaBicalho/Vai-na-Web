@@ -1,0 +1,56 @@
+h1{
+    color:brown;
+}
+
+/*
+id-> apelido para estilizar a tag
+class-> apelido para estilizar a tag
+tag-> estiliza a tag
+*/
+
+.caixa{
+    width: 230px;
+    height: 100px;
+    background-color:darksalmon;
+}
+
+#titulo{
+    color:cadetblue;
+}
+.nome{
+    color:crimson;
+}
+/* 
+a diferença entre id(#),class(.) e tag é o peso de cada uma
+O id tem um peso maior, é mais importante e tem preferência, melhor usar quando utilizar o javascritpt. 
+Class usa para tudo que estiver relacionado a ela.
+Tag
+
+*/
+
+//alinhamento no sass deixa mais organizado o css e consegue fazer manutenção mais facilmente
+
+section{
+    border: solid 5px;
+    width: 250px;
+    .caixa2{
+        width: 230px;
+        background-color:darksalmon;
+        p{
+            color:crimson;
+        }
+    }
+}
+
+/*
+- Efeito Cascata no CSS
+Sempre o último comando que dá que ele lê, se tiver mais de uma propriedade igual, ele vai ler a última que foi colocada
+*/
+
+//Seletor Global (*), modificação e ajuste em toda a página, menos os que tem id(.) e a tag (nome)
+
+*{
+    background-color: antiquewhite;
+    list-style:none;
+}
+

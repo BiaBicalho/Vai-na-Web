@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: solid 2px;
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+header div {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header div .firstButton {
+  background-color: red;
+  height: 7vh;
+  width: 15vw;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+header div button {
+  width: 8vw;
+  height: 7vh;
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.secondBox {
+  border: solid 2px blue;
+  display: flex;
+  justify-content: space-between;
+}
+.secondBox article {
+  border: solid 2px yellow;
+}
+.secondBox article img {
+  width: 20vw;
+}
+
+footer {
+  height: 20vh;
+}/*# sourceMappingURL=style.css.map */
